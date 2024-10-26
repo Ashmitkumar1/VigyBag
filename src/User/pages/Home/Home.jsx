@@ -162,6 +162,122 @@ const Home = () => {
 
   return (
     <div className="bg-[#fff0e3ff]">
+         <div class="review-container">
+            <div class="testimonials-wrapper">
+              <div class="testimonials-header">
+                <h3>Our Customers</h3>
+                <h1>Testimonial</h1>
+              </div>
+              <div class="testimonials">
+                <div class="slider">
+                  <div class="slide">
+                    <div class="slide-bg"></div>
+                    <div class="slide-content">
+                      <i class="fa-solid fa-quote-left"></i>
+                      <i class="fa-solid fa-quote-right"></i>
+                      <div class="slide-img">
+                        <img src="img/client1.jpg" />
+                      </div>
+                      <div class="slide-text">
+                        <h3>Wonderful Product</h3>
+                        <p>
+                            The quality is good.
+                            Value for money.
+                        </p>
+                        <p class="client">- Bob Smith</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slide-bg"></div>
+                    <div class="slide-content">
+                      <i class="fa-solid fa-quote-left"></i>
+                      <i class="fa-solid fa-quote-right"></i>
+                      <div class="slide-img">
+                        <img src="img/client2.jpg" />
+                      </div>
+                      <div class="slide-text">
+                        <h3>Awesome Product</h3>
+                        <p>
+                            Good quality, little bigger the end of the neck band because of a bigger battery. Sound and noise cancelation better than previous model. Ear tips smaller and lighter, for me hold really good even running, better bass and treble.
+
+                        </p>
+                        <p class="client">- Mary Brown</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slide-bg"></div>
+                    <div class="slide-content">
+                      <i class="fa-solid fa-quote-left"></i>
+                      <i class="fa-solid fa-quote-right"></i>
+                      <div class="slide-img">
+                        <img src="img/client3.jpg" />
+                      </div>
+                      <div class="slide-text">
+                        <h3>Very Useful Product</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Maxime praesentium sit natus reprehenderit quibusdam ut
+                          voluptas consectetur commodi fugiat fugit.
+                        </p>
+                        <p class="client">- Nick Jones</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slide-bg"></div>
+                    <div class="slide-content">
+                      <i class="fa-solid fa-quote-left"></i>
+                      <i class="fa-solid fa-quote-right"></i>
+                      <div class="slide-img">
+                        <img src="img/client4.jpg" />
+                      </div>
+                      <div class="slide-text">
+                        <h3>Wonderful Product</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Maxime praesentium sit natus reprehenderit quibusdam ut
+                          voluptas consectetur commodi fugiat fugit.
+                        </p>
+                        <p class="client">- Ann Brown</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slide-bg"></div>
+                    <div class="slide-content">
+                      <i class="fa-solid fa-quote-left"></i>
+                      <i class="fa-solid fa-quote-right"></i>
+                      <div class="slide-img">
+                        <img src="img/client4.jpg" />
+                      </div>
+                      <div class="slide-text">
+                        <h3>Wonderful Product</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Maxime praesentium sit natus reprehenderit quibusdam ut
+                          voluptas consectetur commodi fugiat fugit.
+                        </p>
+                        <p class="client">- John Smith</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="controls">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="dots">
+                  <span class="active"></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
       <main className="">
         <div className="sm:block md:hidden bg-[#eff0f1] pt-5">
           <SearchBar
